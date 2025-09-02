@@ -45,9 +45,9 @@
 <header>
     <div class="logo">GameZone</div>
     <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Productos</a>
-        <a href="#">Carrito</a>
+        <a href="{{ route('welcome') }}">Inicio</a>
+        <a href="{{ route('listaproductos') }}">Productos</a>
+        <a href="{{ route('carrito') }}">Carrito</a>
     </nav>
 </header>
 
@@ -73,7 +73,7 @@
                 <h4>Resident Evil 4 Remake</h4>
                 <p>Terror y Acción.</p>
                 <span>210.000 COP</span>
-                <a href="#">Agregar al Carrito</a>
+                <a href="{{ route('detalle') }}">Agregar al Carrito</a>
             </div>
         </div>
         <div class="card">
@@ -82,7 +82,7 @@
                 <h4>The Last Of Us</h4>
                 <p>Supervivencia y Acción.</p>
                 <span>180.000 COP</span>
-                <a href="#">Agregar al Carrito</a>
+                <a href="{{ route('detalle') }}">Agregar al Carrito</a>
             </div>
         </div>
         <div class="card">
@@ -91,7 +91,7 @@
                 <h4>EA FC 26</h4>
                 <p>Deportes.</p>
                 <span>350.000 COP</span>
-                <a href="#">Agregar al Carrito</a>
+                <a href="{{ route('detalle') }}">Agregar al Carrito</a>
             </div>
         </div>
     </div>
