@@ -15,8 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Route::get('/listaproductos', function () {
     return view('listaproductos');
-});
+})->name('listaproductos');
+
+Route::get('/detalle', function () {
+    return view('detalle');
+})->name('detalle');
+
+Route::get('/carrito', function () {
+    return view('carrito');
+})->name('carrito');

@@ -194,7 +194,7 @@
                     <h3>Resident Evil 4 Remake</h3>
                     <p>Terror y Acción.</p>
                     <span>210.000 COP</span>
-                    <a href="#">Comprar</a>
+                    <a href="{{ route('detalle') }}">Comprar</a>
                 </div>
             </div>
             <div class="card">
@@ -203,7 +203,7 @@
                     <h3>The Last Of Us</h3>
                     <p>Supervivencia, Accion y Terror.</p>
                     <span>180.000 COP</span>
-                    <a href="#">Comprar</a>
+                    <a href="{{ route('detalle') }}">Comprar</a>
                 </div>
             </div>
             <div class="card">
@@ -212,7 +212,7 @@
                     <h3>EA FC 26</h3>
                     <p>Deportes.</p>
                     <span>350.000 COP</span>
-                    <a href="#">Comprar</a>
+                    <a href="{{ route('detalle') }}">Comprar</a>
                 </div>
             </div>
         </div>
